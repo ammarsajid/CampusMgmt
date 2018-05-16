@@ -131,8 +131,6 @@ namespace CampusManagement.Controllers
 
             catch (SqlException e)
             {
-                // To Do - Return the error?
-                //Console.WriteLine(e.ToString());
                 return null;
             }
         }
