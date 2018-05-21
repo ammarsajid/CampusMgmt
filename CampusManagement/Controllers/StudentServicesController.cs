@@ -152,7 +152,6 @@ namespace CampusManagement.Controllers
             catch (SqlException sqle)
             {
                 return -2;
-                //to start continuous build
             }
         }
     }
