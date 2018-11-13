@@ -85,7 +85,7 @@ namespace CampusManagement.Controllers
                 {
                     connection.Open();
 
-                    String sql = "EXEC storProcedure";
+                    String sql = "EXEC sp_getAllStudents";
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
                         using (SqlDataReader reader = command.ExecuteReader())
